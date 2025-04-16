@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+
+/* nav */
+.sh {
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.sha {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+}
+
+.sti{
+    position: sticky;
+    top: 0%;
+    height: 100px;
+    
+    
+
+}
+.bord-n{
+    border: solid 1px rgba(0, 0, 0, 0.425);
+}
+
+/* nav */
+
+/* uper nav */
+
+.bord{
+    border-left: solid 1px wheat;
+    border-right: solid 1px wheat;
+
+}
+
+/* uper nav */
+
+
+/* hero */
+.gradient-text {
+    /* font-weight: bold; */
+    /* font-size: 24px; */
+    background: linear-gradient(to right, white 50%, rgba(214, 85, 38, 0.904) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-hero:hover{
+    background:rgb(214, 85, 38) ;
+    color: #ffffffff;
+    transition: 0.4s;
+    
+
+}
+.ba{
+    background: url(./assets/p.png);
+    background-position: center;
+    background-size:cover ;
+
+    
+}
+
+/* hero */
+
+
