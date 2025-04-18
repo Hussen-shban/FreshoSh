@@ -44,9 +44,9 @@ Error generating stack: `+a.message+`
               \r
               `,children:[D.jsxs("div",{className:`\r
                 menuitem relative text-white w-[250px] h-[200px] flex flex-col justify-end  p-4 mt-20 \r
-                 max-xs:w-[180px] max-xs:h-[140px] max-xs:p-[10px]\r
+                 max-xs:w-[160px] max-xs:h-[130px] max-xs:p-[10px]\r
                 `,children:[D.jsx("img",{className:`w-[200px] absolute top-[-70px]   left-1/2 -translate-x-1/2\r
-                     max-xs:w-[140px]  max-xs:top-[-60px]\r
+                     max-xs:w-[130px]  max-xs:top-[-60px]\r
                     \r
                     `,src:is}),D.jsx("p",{className:`\r
                     text-[16px] font-medium mb-4\r
@@ -56,9 +56,9 @@ Error generating stack: `+a.message+`
                         max-xs:text-[14px]\r
                         `,children:"40.00 $"}),D.jsx("img",{className:"max-xs:w-[20px]",src:ls,alt:"heart"})]})]}),D.jsxs("div",{className:`\r
                 menuitem relative text-white w-[250px] h-[200px] flex flex-col justify-end  p-4 mt-20 \r
-                 max-xs:w-[180px] max-xs:h-[140px] max-xs:p-[10px]\r
+                 max-xs:w-[160px] max-xs:h-[130px] max-xs:p-[10px]\r
                 `,children:[D.jsx("img",{className:`w-[200px] absolute top-[-70px]   left-1/2 -translate-x-1/2\r
-                     max-xs:w-[140px]  max-xs:top-[-60px]\r
+                     max-xs:w-[130px]  max-xs:top-[-60px]\r
                     \r
                     `,src:is}),D.jsx("p",{className:`\r
                     text-[16px] font-medium mb-4\r
@@ -68,9 +68,9 @@ Error generating stack: `+a.message+`
                         max-xs:text-[14px]\r
                         `,children:"40.00 $"}),D.jsx("img",{className:"max-xs:w-[20px]",src:ls,alt:"heart"})]})]}),D.jsxs("div",{className:`\r
                 menuitem relative text-white w-[250px] h-[200px] flex flex-col justify-end  p-4 mt-20 \r
-                 max-xs:w-[180px] max-xs:h-[140px] max-xs:p-[10px]\r
+                 max-xs:w-[160px] max-xs:h-[130px] max-xs:p-[10px]\r
                 `,children:[D.jsx("img",{className:`w-[200px] absolute top-[-70px]   left-1/2 -translate-x-1/2\r
-                     max-xs:w-[140px]  max-xs:top-[-60px]\r
+                     max-xs:w-[130px]  max-xs:top-[-60px]\r
                     \r
                     `,src:is}),D.jsx("p",{className:`\r
                     text-[16px] font-medium mb-4\r
@@ -80,9 +80,9 @@ Error generating stack: `+a.message+`
                         max-xs:text-[14px]\r
                         `,children:"40.00 $"}),D.jsx("img",{className:"max-xs:w-[20px]",src:ls,alt:"heart"})]})]}),D.jsxs("div",{className:`\r
                 menuitem relative text-white w-[250px] h-[200px] flex flex-col justify-end  p-4 mt-20 \r
-                 max-xs:w-[180px] max-xs:h-[140px] max-xs:p-[10px]\r
+                 max-xs:w-[160px] max-xs:h-[130px] max-xs:p-[10px]\r
                 `,children:[D.jsx("img",{className:`w-[200px] absolute top-[-70px]   left-1/2 -translate-x-1/2\r
-                     max-xs:w-[140px]  max-xs:top-[-60px]\r
+                     max-xs:w-[130px]  max-xs:top-[-60px]\r
                     \r
                     `,src:is}),D.jsx("p",{className:`\r
                     text-[16px] font-medium mb-4\r
