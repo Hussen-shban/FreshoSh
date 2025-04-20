@@ -118,10 +118,17 @@ Error generating stack: `+h.message+`
         bg-blacko min-h-screen pt-24 \r
         flex justify-center items-center\r
           pb-10\r
-          w-[100vw] overflow-hidden\r
+          max-xs:w-[100vw] overflow-hidden\r
           max-xs:pt-6 max-xs:block max-xs:in-h-[100vh]\r
           \r
-          `,children:B.jsxs("div",{className:"flex items-center justify-around w-full flex-wrap gap-24",children:[B.jsxs("div",{className:"flex items-center gap-10",children:[B.jsxs("div",{className:"text-[32px] text-white font-semibold",children:[B.jsx("p",{children:"We have"}),B.jsx("p",{children:"special offer"})]}),B.jsx("img",{className:"w-[50px] ",src:bm})]}),B.jsx("div",{className:"w-full",children:B.jsx(P0,{effect:"cards",grabCursor:!0,modules:[Xv],className:`\r
+          `,children:B.jsxs("div",{className:`\r
+            flex flex-row items-center\r
+             justify-around w-full\r
+              flex-wrap gap-24\r
+             \r
+              \r
+              \r
+              `,children:[B.jsxs("div",{className:"flex items-center gap-10  ",children:[B.jsxs("div",{className:"text-[32px] text-white font-semibold",children:[B.jsx("p",{children:"We have"}),B.jsx("p",{children:"special offer"})]}),B.jsx("img",{className:"w-[50px] ",src:bm})]}),B.jsx("div",{className:"max-xs:w-full",children:B.jsx(P0,{effect:"cards",grabCursor:!0,modules:[Xv],className:`\r
                         mySwiper h-[390px] w-[300px]\r
                         max-xs:w-[80%] max-xs:h-[50vh]\r
                          `,children:[...Array(9)].map((o,n)=>B.jsx(M0,{className:"text-white text-center p-5",children:B.jsxs("div",{className:"flex flex-col gap-10 items-center",children:[B.jsx("img",{src:Ui,alt:"dish",className:`\r
