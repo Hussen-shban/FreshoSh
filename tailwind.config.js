@@ -24,7 +24,7 @@ module.exports = {
         ],
         alexandria: ['Alexandria', 'serif'],
         lilita: ['Lilita One', 'sans-serif'],
-      },
+        dosis: ['Dosis', 'sans-serif'],      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',

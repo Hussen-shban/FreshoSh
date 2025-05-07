@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-
-
 
 /* nav */
 .sh {
@@ -15,15 +15,16 @@
     cursor: pointer;
 }
 
-.sti{
+.sti {
     position: sticky;
     top: 0%;
     height: 100px;
-    
-    
+
+
 
 }
-.bord-n{
+
+.bord-n {
     border: solid 1px rgba(0, 0, 0, 0.425);
 }
 
@@ -31,15 +32,34 @@
 
 /* uper nav */
 
-.bord{
+.bord {
     border-left: solid 1px wheat;
     border-right: solid 1px wheat;
 
 }
 
+.bor {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.bo{
+    border-bottom: 1px solid #dee2e633 ;
+}
+
+.lon {
+    color: #202435;
+}
+
+.lon1 {
+    color: #71778e;
+}
+
 /* uper nav */
 
-
+.fof{
+    
+    color: #dee2e679;
+}
 /* hero */
 .gradient-text {
     /* font-weight: bold; */
@@ -48,21 +68,163 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.btn-hero:hover{
-    background:rgb(214, 85, 38) ;
+
+.btn-hero:hover {
+    background: rgb(214, 85, 38);
     color: #ffffffff;
     transition: 0.4s;
-    
+
 
 }
-.ba{
-    background: url(./assets/p.png);
-    background-position: center;
-    background-size:cover ;
+.fle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bl{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+}
 
-    
+.d {
+    border-radius: 50%;
+    background: #3f3b3b;
+}
+
+.dd {
+    background-color: #ffffffff;
+}
+
+.ba {
+    background: url(./assets/p-BSGh9UlI.webp);
+    background-position: center;
+    background-size: cover;
+
+
 }
 
 /* hero */
 
 
+/* menu */
+
+.menuitem {
+    background: #3f3b3b;
+    border-radius: 20px;
+
+
+
+
+}
+
+/* menu */
+.ddd {
+    color: rgba(128, 128, 128, 0.671);
+}
+
+.bla {
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.btnn {
+    /* padding: 10px 30px; */
+    border-radius: 20px;
+}
+
+th {
+    padding: 0.75rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+td {
+    padding: 12px;
+}
+
+.bop {
+    border-bottom: solid 1px #dee2e6;
+}
+
+table {
+    width: 0%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.Dosis {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by ZAKARIAE48CHELLE */
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+
+.input {
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    background-color: #202435;
+    box-shadow: 0px 0px 3px #202435;
+    padding-right: 40px;
+    color: #fff;
+}
+
+.input::placeholder,
+.input {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 17px;
+}
+
+.input::placeholder {
+    color: #8f8f8f;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: 0.2s linear;
+}
+
+.icon:focus~.input,
+.input:focus {
+    box-shadow: none;
+    width: 250px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #fff;
+    transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+.er{
+    font-family: "Inter", sans-serif;
+}

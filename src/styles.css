@@ -1,0 +1,23 @@
+
+
+
+.swiper-slide {
+  background-color: #1c1c1e;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-180deg); /* الميلان الخفيف */
+}
+
+.swiper-slide-active {
+  transform: rotate(0deg) scale(1.05); /* الشريحة الحالية تكون مستقيمة وأكبر شوي */
+  z-index: 10;
+  
+ 
+}
+
+ 
+
+
