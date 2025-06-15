@@ -18,7 +18,7 @@ export default function Hero() {
 
             <p className=" gradient-text text-[65px] max-ss:text-[42px] max-xs:text-[37px] text-center font-semibold" >Fast Food Restaurant</p>
             <p className=" gradient-text text-[65px] max-ss:text-[42px] max-xs:text-[37px] font-semibold">Delicious dishes</p>
-            <Link to="/FreshoSh" state={{ scrollTo: "contact" }}>
+            <Link to="/" state={{ scrollTo: "contact" }}>
                 <button
                     className="btn-hero bg-[#ffffff] w-[200px] max-ss:w-[150px] max-ss:h-[40px] max-ss:text-[18px] h-[50px] rounded-[15px] text-[24px] font-semibold text-freshoOrange mt-4 ">
                     Contact Us

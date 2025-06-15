@@ -216,26 +216,26 @@ export default function Nav() {
 
 
                 <ul className=" gap-10 flex items-center justify-center">
-                    <Link to="/FreshoSh" state={{ scrollTo: "hero" }} >
+                    <Link to="/" state={{ scrollTo: "hero" }} >
               
                         <li className="text-[18px] cursor-pointer" >
                             Home
                         </li>
                     </Link>
 
-                    <Link to="/FreshoSh" state={{ scrollTo: "menu" }}>
+                    <Link to="/" state={{ scrollTo: "menu" }}>
                         <li className="text-[18px] cursor-pointer" >
                             Our Menu
                         </li>
                     </Link>
 
 
-                    <Link to="/FreshoSh" state={{ scrollTo: "offer" }}>
+                    <Link to="/" state={{ scrollTo: "offer" }}>
                         <li className="text-[18px] cursor-pointer" >
                             Special Offer
                         </li>
                     </Link>
-                    <Link to="/FreshoSh" state={{ scrollTo: "contact" }}>
+                    <Link to="/" state={{ scrollTo: "contact" }}>
                         <li className="text-[18px] cursor-pointer" >
                             Contact Us
                         </li>
@@ -296,7 +296,7 @@ export default function Nav() {
 
 
                     <div className=" flex items-center justify-center gap-2">
-                        <Link to="/FreshoSh/cart">
+                        <Link to="/cart">
                             <div className="relative">
                                 <div className="absolute flex items-center justify-center   top-[-8px] right-[-8px] bg-red-700 rounded-full w-6 h-6 t ">
                                     <p className="text-[14px]" >{allquantity}</p>
@@ -330,7 +330,7 @@ export default function Nav() {
                 </div>
 
                 <div className="flex  items-center justify-center gap-6">
-                    <Link to="/FreshoSh/cart" >
+                    <Link to="/cart" >
                         <div className=" relative ">
                             <div className="absolute flex items-center justify-center   top-[-3px] right-[-7px] bg-red-700 rounded-full w-6 h-6 t ">
                                 <p className="text-[14px]" >{allquantity}</p>
@@ -382,7 +382,7 @@ export default function Nav() {
                             <div ref={openref} className=" hidden mt-5 ">
                                 <ul className="  flex flex-col items-start   w-[100%] text-[#3e445a] text-[16px] font-medium">
                                     <Link
-                                        to="/FreshoSh"
+                                        to="/"
                                         state={{ scrollTo: 'menu', itemType: 'burger' }}
                                         className="w-full"
                                         onClick={handleopen}
@@ -394,7 +394,7 @@ export default function Nav() {
                                         </li>
                                     </Link>
                                     <Link
-                                        to="/FreshoSh"
+                                        to="/"
                                         state={{ scrollTo: 'menu', itemType: 'meats' }}
                                         className="w-full"
                                         onClick={handleopen}
@@ -406,7 +406,7 @@ export default function Nav() {
                                         </li>
                                     </Link>
                                     <Link
-                                        to="/FreshoSh"
+                                        to="/"
                                         state={{ scrollTo: 'menu', itemType: 'spa' }}
                                         className="w-full"
                                         onClick={handleopen}
@@ -418,7 +418,7 @@ export default function Nav() {
                                         </li>
                                     </Link>
                                     <Link
-                                        to="/FreshoSh"
+                                        to="/"
                                         state={{ scrollTo: 'menu', itemType: 'drink' }}
                                         className="w-full"
                                         onClick={handleopen}
@@ -442,7 +442,7 @@ export default function Nav() {
                            
 
 
-                                <Link onClick={handleopen} to="/FreshoSh" state={{ scrollTo: "hero" }} >
+                                <Link onClick={handleopen} to="/" state={{ scrollTo: "hero" }} >
                                 <p  className="text-blacko border-b p-5 px-5">
                                     Home
                                 </p>
@@ -450,7 +450,7 @@ export default function Nav() {
 
 
 
-                                <Link onClick={handleopen} to="/FreshoSh" state={{ scrollTo: "menu" }}>
+                                <Link onClick={handleopen} to="/" state={{ scrollTo: "menu" }}>
                                 <p  className="text-blacko border-b p-5 px-5">
                                     Our Menu
 
@@ -459,13 +459,13 @@ export default function Nav() {
 
 
 
-                                <Link onClick={handleopen} to="/FreshoSh" state={{ scrollTo: "offer" }}>
+                                <Link onClick={handleopen} to="/" state={{ scrollTo: "offer" }}>
                                 <p  className="text-blacko border-b p-5 px-5">
                                     Special Offer
                                 </p>
                                 </Link>
 
-                                <Link onClick={handleopen} to="/FreshoSh" state={{ scrollTo: "contact" }}>
+                                <Link onClick={handleopen} to="/" state={{ scrollTo: "contact" }}>
                                 <p className="text-blacko border-b p-5 px-5">
                                     Contact Us
                                 </p>
