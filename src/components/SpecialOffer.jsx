@@ -47,7 +47,7 @@ export default function SpecialOffer() {
                          "
 
                     >
-                        {[...Array(9)].map((_, index) => (
+                        {[...Array(3)].map((_, index) => (
 
                             <SwiperSlide key={index} className="text-white text-center p-5">
                                 <Link to="SpecialOffer" >

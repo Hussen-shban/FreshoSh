@@ -2,33 +2,25 @@
 
 
 
+// import { useSpring, animated } from "@react-spring/web";
 
-import { useGesture } from "@use-gesture/react";
-import { egg, ff, kra, mint, oil, salt, spaghetti, toto, zbd } from "../assets";
+// import { useGesture } from "@use-gesture/react";
+import {  spaghetti} from "../assets";
 import { useEffect, useState } from "react";
 
 export default function OfferDetails() {
-    const [{ rotateZ }, api] = useSpring(() => ({ rotateZ: 0 }));
+    // const [{ rotateZ }, api] = usespring(() => ({ rotateZ: 0 }));
 
-    const bind = useGesture({
-        // onWheel: ({ delta: [, dy] }) => {
-        //     api.start({
-        //         rotateZ: rotateZ.get() + dy ,
-        //         config: { tension: 50, friction: 20 }
-        //     });
-        // },
-        // onRotate: ({ offset: [angle] }) => {
-        //     api.start({ rotateZ: angle  });
-        // },
-        onDrag: ({ delta: [dx] }) => {
-            api.start({
-                rotateZ: rotateZ.get() + dx * 4.5,
-                config: { tension: 50, friction: 20 }
-            });
-        }
-    });
+    // const bind = useGesture({
 
-    const ingredients = [ff, mint, toto, zbd, egg, salt, kra, oil];
+    //     onDrag: ({ delta: [dx] }) => {
+    //         api.start({
+    //             rotateZ: rotateZ.get() + dx * 4.5,
+    //             config: { tension: 50, friction: 20 }
+    //         });
+    //     }
+    // });
+
 
     const [radius, setRadius] = useState(220); // القيمة الأولية
 
@@ -65,9 +57,9 @@ export default function OfferDetails() {
     }, []);
     return (
         <div className="max-ss:h-[100%] bg-blacko flex ss:h-screen max-md:pt-[80px] md:h-[calc(100vh-100px)] md:pt-[10px] overflow-hidden relative ss:items-start ss:justify-around px-10
-        max-ss:flex-col-reverse max-ss:px-0 max-ss:justify-end max-ss:items-center max-ss:pt-[60px] max-ss:min-h-[100vh]
+        max-ss:flex-col-reverse max-ss:px-0 max-ss:justify-center max-ss:items-center max-ss:pt-[60px] max-ss:min-h-[100vh] max-sm:pb-5 max-ss:pb-20
         ">
-            <div className="flex flex-col flex-grow ">
+            <div className="flex flex-col ss:flex-grow ">
                 <div className="text-white mb-5">
                     <p className="text-[42px] font-semibold
                     max-ss:text-[26px] max-ss:pl-[10px] max-ss:max-w-[350px]
@@ -84,11 +76,10 @@ export default function OfferDetails() {
                     Black Spaghetti with Prawns & Herbs is a nutritious and flavorful dish made with ....
                 </p>
 
-                <p className="text-[18px] max-ss:pl-[10px] font-semibold max-ss:text-[16px] text-white">ingredients :</p>
 
 
                 <div className="max-ss:hidden" >
-                    <animated.div
+                    {/* <animated.div
                         {...bind()}
                         style={{ rotateZ }}
                         className="m-auto absolute z-10 rounded-full bg-card -bottom-56 left-[20%] mt-10 w-[450px] h-[450px]
@@ -98,7 +89,8 @@ export default function OfferDetails() {
                              touch-none
                         
                         "
-                    >
+                    > */}
+                    {/* <div className="max-sm:hidden m-auto absolute z-10 rounded-full bg-card -bottom-44 left-[20%] mt-10 w-[450px] h-[450px]" >
                         <div className="w-full h-full relative">
                             {ingredients.map((item, index) => {
                                 const angle = (360 / ingredients.length) * index;
@@ -118,17 +110,16 @@ export default function OfferDetails() {
                                 );
                             })}
                         </div>
-                    </animated.div>
+                    </div> */}
+
+
                 </div>
-                <div className="flex-grow flex flex-col justify-end h-full pt-[px]" >
+                {/* <div className=" max-sm:hidden flex-grow flex flex-col justify-end h-full pt-[px]" >
                     <div className="ss:hidden h-[58vw] overflow-hidden pt-[20px]  " >
-                        <animated.div
-                            {...bind()}
-                            style={{ rotateZ }}
-                            className="   rounded-full bg-card w-[100vw] h-[100vw] relative bottom-[-6vh]
+
+                        <div className="   rounded-full bg-card w-[100vw] h-[100vw] relative bottom-[-6vh]
                              touch-none
-                        "
-                        >
+                        ">
                             <div className="w-full h-full relative">
                                 {ingredients.map((item, index) => {
                                     const angle = (360 / ingredients.length) * index;
@@ -152,8 +143,30 @@ export default function OfferDetails() {
                                     );
                                 })}
                             </div>
-                        </animated.div>
+                        </div>
+
+
                     </div>
+                </div> */}
+
+                <div className=" er flex gap-5 text-white mt-5">
+
+                    <button className="btnn py-[10px] px-[30px] max-ss:px-[20px]  bg-card flex flex-col items-start
+                    
+                    ">
+                        <p className="text-[14px] font-medium max-ss:text-[12px]">Delivery Time</p>
+                        <p className="text-[22px] font-semibold flex items-center
+                        max-ss:text-[18px] 
+                        ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 72 72"><defs><path id="openmojiFourOclock0" d="M36 18.989v17m10.057 5.791l-10-5.774" /></defs><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"><circle cx="35.958" cy="35.99" r="23" /><use href="#openmojiFourOclock0" /></g><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"><circle cx="35.958" cy="35.99" r="23" /><use href="#openmojiFourOclock0" /></g></svg>
+                            25 mins</p>
+                    </button>
+
+                    <button className="btnn py-[10px] px-[30px] max-ss:px-[30px] bg-[#38b000] flex flex-col items-start">
+                        <p className="text-[14px] font-medium max-ss:text-[12px]">Price</p>
+                        <p className="text-[22px] font-semibold max-ss:text-[18px]">$ 20</p>
+                    </button>
+
                 </div>
 
 

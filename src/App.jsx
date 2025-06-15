@@ -75,11 +75,11 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/FreshoSh">
       <Routes>
-        <Route path="FreshoSh" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route
-          path="FreshoSh/SpecialOffer"
+          path="/SpecialOffer"
           element={
             <>
               <Nav />
@@ -88,7 +88,7 @@ function App() {
           }
         />
         <Route
-          path="FreshoSh/item/:id"
+          path="/item/:id"
           element={
             <>
               <Nav />
@@ -97,7 +97,7 @@ function App() {
           }
         />
         <Route
-          path="FreshoSh/cart"
+          path="/cart"
           element={
             <>
               <Nav />
