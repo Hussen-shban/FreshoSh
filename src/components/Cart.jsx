@@ -202,7 +202,7 @@ export default function Cart() {
                     </div>
                     <p className="text-[#ed174a] font-[700] text-[18px] font-dosis">Your cart is currently empty.</p>
                     <Link
-                        to="/FreshoSh"
+                        to="/"
                         state={{ scrollTo: 'menu', itemType: 'food' }}>
                         <button className="bg-[#233a95] px-[25px] py-[13px] text-white rounded-[30px] font-semibold text-[14px] font-dosis">Return to shop</button>
 
